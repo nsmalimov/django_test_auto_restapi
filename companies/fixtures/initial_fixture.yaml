@@ -1,0 +1,37 @@
+- model: companies.City
+  pk: 1
+  fields:
+    name: Moscow
+    population: 5000000
+- model: companies.City
+  pk: 2
+  fields:
+    name: Moscow
+    population: 14000000
+
+- model: companies.Person
+  pk: 1
+  fields:
+    name: Иван
+    city: 1
+    position: CTO
+- model: companies.Person
+  pk: 2
+  fields:
+    name: Пётр
+    city: 2
+    position: Разработчик
+    supervisor: 1
+- model: companies.Person
+  pk: 3
+  fields:
+    name: Степан
+    city: 2
+    position: Тестировщик
+    supervisor: 2
+
+- model: companies.JobInfo
+  pk: 1
+  fields:
+    director: 1
+    activity_field: Programming
