@@ -28,7 +28,7 @@
     name: Степан
     city: 2
     position: Тестировщик
-    supervisor: 2
+    supervisor: 1
 
 - model: companies.JobInfo
   pk: 1

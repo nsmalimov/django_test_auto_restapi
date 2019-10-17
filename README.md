@@ -24,8 +24,10 @@ python manage.py loaddata companies/fixtures/initial_fixture.yaml
 1. Есть кейс, когда модели могут лежать в отдельной папке типа "models".
 Можно научить брать оттуда.
 https://stackoverflow.com/questions/5534206/how-do-i-separate-my-models-out-in-django
+Также по аналогии с url
 
 2. Авторизация. Проверить как будет работать с авторизацией. Могут быть дополнительные правки для поддержки авторизации.
+(CsrfViewMiddleware)
 
 3. Можно сделать с https://www.django-rest-framework.org/. Вставив в settings.py как зависимость и используя уже готовые компоненты.
 
@@ -33,5 +35,7 @@ https://stackoverflow.com/questions/5534206/how-do-i-separate-my-models-out-in-d
 
 5. Multi-Column Sort
 ORDER BY Last_Modified DESC, Email ASC
+
+6. Усилить валидацию (проверка на лишние параметры, проверка, что присутствуют только поля, допустимые для модели)
 
 #### todo: remove not needed from settings.py
