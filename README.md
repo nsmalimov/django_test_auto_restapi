@@ -8,7 +8,7 @@
 
 `docker ps --all`
 
-Не забудьте создать базу данных "django_test_auto_restapi" (см. settings.py)
+Не забудьте создать базу данных "django_test_auto_restapi" (см. settings.py).
 
 ### django
 
@@ -23,10 +23,10 @@
 
 `python manage.py migrate`
 
-заполнение полей:
+Заполнение полей:
 `python manage.py loaddata companies/fixtures/initial_fixture.yaml`
 
 #### TODO:
 
 1. Должности в модели Person через enum (как кроме choise). Проверить, что choise - работает.
-2. remove not needed from settings.py, так как проект тестовый, небходимости в некоторых полях нет.
+2. Удалить лишнее из settings.py, так как проект тестовый, небходимости в некоторых полях нет.
