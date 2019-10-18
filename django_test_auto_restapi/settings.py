@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'companies',
-    'plugins.auto_restapi_django_plugin.django_baker'
+    'plugins.auto_restapi_django_plugin'
 
 ]
 
